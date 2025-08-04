@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://replino.vercel.app/sitemap.xml
