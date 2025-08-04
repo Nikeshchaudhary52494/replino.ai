@@ -1,0 +1,26 @@
+.ai-reply-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #1a73e8;
+  color: #fff;
+  font-size: 14px;
+  height: 36px;
+  padding: 0 16px;
+  margin-right: 8px;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ai-reply-button .icon {
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+.ai-reply-button:hover {
+  background-color: #1967d2;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
