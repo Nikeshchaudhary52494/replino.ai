@@ -1,13 +1,13 @@
-package com.replix.app;
+package com.replino.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReplixApplication {
+public class ReplinoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReplixApplication.class, args);
+		SpringApplication.run(ReplinoApplication.class, args);
 	}
 
 }

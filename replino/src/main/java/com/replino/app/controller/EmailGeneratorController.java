@@ -1,4 +1,4 @@
-package com.replix.app.controller;
+package com.replino.app.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.replix.app.dto.EmailRequest;
-import com.replix.app.service.EmailGeneratorService;
+import com.replino.app.dto.EmailRequest;
+import com.replino.app.service.EmailGeneratorService;
 
 import lombok.AllArgsConstructor;
 

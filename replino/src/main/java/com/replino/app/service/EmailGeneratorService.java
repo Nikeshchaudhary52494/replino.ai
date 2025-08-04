@@ -1,4 +1,4 @@
-package com.replix.app.service;
+package com.replino.app.service;
 
 import java.util.Map;
 
@@ -8,7 +8,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.replix.app.dto.EmailRequest;
+import com.replino.app.dto.EmailRequest;
 
 @Service
 public class EmailGeneratorService {

@@ -1,4 +1,4 @@
-package com.replix.app.dto;
+package com.replino.app.dto;
 
 import lombok.Data;
 

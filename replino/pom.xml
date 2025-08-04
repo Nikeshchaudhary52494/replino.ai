@@ -8,10 +8,10 @@
 		<version>3.4.8</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.replix</groupId>
-	<artifactId>replix</artifactId>
+	<groupId>com.replino</groupId>
+	<artifactId>replino</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>replix</name>
+	<name>replino</name>
 	<description>AI-powered email reply generation service</description>
 	<url/>
 	<licenses>
