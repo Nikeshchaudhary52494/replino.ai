@@ -2,7 +2,15 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Mail, Wand2, Chrome, Download, ArrowRight, Check } from "lucide-react";
+import {
+  Mail,
+  Wand2,
+  Chrome,
+  Download,
+  ArrowRight,
+  Check,
+  Github,
+} from "lucide-react";
 
 function LandingPage() {
   useEffect(() => {
@@ -14,7 +22,7 @@ function LandingPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-slate-900 to-gray-950 text-white">
+    <div className="min-h-screen overflow-hidden bg-gradient-to-br from-gray-950 via-slate-900 to-gray-950 text-white">
       {/* Navigation */}
       <nav className="border-b border-slate-800 fixed w-full bg-gray-950/80 backdrop-blur-sm z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -27,7 +35,7 @@ function LandingPage() {
           <div className="flex items-center gap-4">
             <a
               href="#features"
-              className="text-slate-300 hover:text-white transition-colors"
+              className="text-slate-300 hidden sm:block hover:text-white transition-colors"
               data-aos="fade-down"
               data-aos-delay="100"
             >
@@ -35,7 +43,7 @@ function LandingPage() {
             </a>
             <a
               href="#extension"
-              className="text-slate-300 hover:text-white transition-colors"
+              className="text-slate-300 hidden sm:block hover:text-white transition-colors"
               data-aos="fade-down"
               data-aos-delay="150"
             >
@@ -54,7 +62,7 @@ function LandingPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center pt-20 pb-32 px-4">
+      <section className="min-h-screen flex items-center justify-center pt-20 pb-32 px-4 relative">
         <div className="container mx-auto text-center max-w-4xl">
           <div
             className="inline-flex items-center gap-3 mb-6 bg-slate-800/30 backdrop-blur-sm px-6 py-3 rounded-full border border-slate-400/20"
@@ -82,7 +90,7 @@ function LandingPage() {
             Professional, friendly, or casual - you choose the tone.
           </p>
           <div
-            className="flex flex-col sm:flex-row gap-4 justify-center"
+            className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -98,6 +106,23 @@ function LandingPage() {
             >
               <Chrome className="w-5 h-5" />
               Get Chrome Extension
+            </a>
+          </div>
+
+          {/* GitHub Repo Link */}
+          <div
+            className="absolute bottom-8 left-0 right-0 flex justify-center"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <a
+              href="https://github.com/Nikeshchaudhary52494/replino.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-slate-400 hover:text-emerald-300 transition-colors group"
+            >
+              <Github />
+              <span className="text-sm">View on GitHub</span>
             </a>
           </div>
         </div>

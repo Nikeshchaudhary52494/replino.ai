@@ -14,7 +14,7 @@ function EmailPage() {
     setError("");
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/email/generate",
+        "https://replino-ai.onrender.com/api/email/generate",
         {
           emailContent,
           tone,
