@@ -33,11 +33,11 @@ This repository contains three key components:
 
 ### 🌍 Web App Landing Page
 
-![Landing Page](replio-frontend/public/app-preview.png)
+![Landing Page](app-preview.png)
 
 ### 🧠 Chrome Extension in Gmail
 
-![Extension](replio-frontend/public/extension-preview.png)
+![Extension](extension-preview.png)
 
 ---
 
@@ -108,4 +108,3 @@ You will need a **Gemini API key** to use the AI features.
 ---
 
 Made with 🪲 by [Nikesh Chaudhary](https://github.com/Nikeshchaudhary52494)
-
